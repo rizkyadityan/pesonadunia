@@ -19,6 +19,8 @@ a {
   background-size: cover;
   color: red;
   text-align: center;
+  display: flex;
+  animation: slide 16s infinite;
 }
 
 .top-wrapper h1 {
@@ -41,7 +43,6 @@ a {
 .btn-wrapper p {
   margin: 10px 0;
 }
-
 
 .btn {
   padding: 12px 24px;
@@ -90,7 +91,7 @@ header {
 .header-right {
   float: right;
   background-color: rgba(255, 255, 255, 0.3);
-  transition: all 0.5s;
+  margin-right: -25px;
 }
 
 .header-right:hover {
@@ -102,6 +103,17 @@ header {
   padding: 0 25px;
   color: white;
   display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none;
 }
 
 .lesson-wrapper {
@@ -126,8 +138,18 @@ header {
   width: 25%;
 }
 
+.lesson:hover .lesson-icon img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
 .lesson-icon {
   position: relative;
+}
+
+.lesson-icon img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
 }
 
 .lesson-icon p {
@@ -180,9 +202,9 @@ footer p {
 footer {
   padding-top: 30px;
 }
-footer a{
-	line-height: 20px;
-	padding: 0 25px;
-	color: black;
-	display: block;
+footer a {
+  line-height: 20px;
+  padding: 0 25px;
+  color: black;
+  display: block;
 }
