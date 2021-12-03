@@ -1,0 +1,320 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   font-family: poppins, sans-serif;
+}
+
+/*
+-------------------------Aditya
+*/
+
+.top-wrapper {
+    max-width: 100%;
+  
+    padding: 180px 0 300px 0;
+    background-image: url(https://img.wallpapersafari.com/desktop/1536/864/9/32/YF5sBZ.jpg);
+    background-size: 100%;
+    color: white;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+  }
+  
+  /*
+  -------------------------Aditya
+  */
+body{
+  justify-content: center;
+  align-items: center;
+  /*display: flex; */
+  display: block; /* Aditya*/
+  min-height: 100vh;
+  background: linear-gradient(45deg, #ffff, #f7f6f6);
+  background-attachment: fixed;
+}
+.tampilan_utama{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #fff, #f7f6f6);
+  background-attachment: fixed;
+  padding-top: 50px;
+}
+.container{
+  position: relative;
+  width: 1150px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+img{
+  width: 100%;
+}
+.container .card{
+  position: relative;
+  width: 300px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 25px rgba(0,0,0,.2);
+  background: #fff;
+  margin: 20px;
+  overflow: hidden;
+  transition: .5s;
+}
+.container h1 {
+	font-size: 20px;
+	color: blue;
+}
+
+.container h2 {
+	font-size: 18px;
+	color: red;
+}
+
+
+.container:hover .card{
+  filter: blur(20px);
+  transform: scale(0.9);
+  opacity: 0.5;
+}
+.container .card:hover{
+  filter: blur(0);
+  transform: scale(1.1);
+  opacity: 1;
+}
+.container .card .circle{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  clip-path: circle(180px at center 0);
+   
+}
+.container .card .content{
+  position: absolute;
+  bottom: 10px;
+  page-break-after: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.content p{
+  color: #666;
+  text-align: justify;
+  font-size: 15px;
+}
+.content a{
+  position: relative;
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 40px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.container .card:nth-child(1) .circle,
+.container .card:nth-child(1) .content a{
+  background: #ffaf00;
+}
+.container .card:nth-child(2) .circle,
+.container .card:nth-child(2) .content a{
+  background: #da2268;
+}
+.container .card:nth-child(3) .circle,
+.container .card:nth-child(3) .content a{
+  background: #bb02ff;
+}
+.container .card:nth-child(4) .circle,
+.container .card:nth-child(4) .content a{
+  background: #34ebe5;
+}
+.container .card:nth-child(5) .circle,
+.container .card:nth-child(5) .content a{
+  background: #ebde34;
+}
+.container .card:nth-child(6) .circle,
+.container .card:nth-child(6) .content a{
+  background: #4034eb;
+}
+.container .card:nth-child(7) .circle,
+.container .card:nth-child(7) .content a{
+  background: #eb7134;
+}
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(5, 128, 128, 0.9);
+  /* Ubah position ke fixed, dan top ke 0 */
+  position: fixed;
+  top: 0;
+  /* Ubah z-index ke 10 */
+  z-index: 10;
+}
+
+/*
+Aditya
+*/
+.logo {
+    width: 120px;
+    margin: 5px 0;
+    float: left;
+}
+.header-left {
+  float: left;
+  /*background-color: rgba(255, 255, 255, 0.3);*/
+  transition: all 0.5s;
+  ;
+}
+.header-left a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: rgba(255, 255, 255, 5);
+  display: block;
+
+  float: left;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+/*
+Aditya
+*/
+
+.header-right {
+  float: right;
+  background-color: rgba(8, 172, 172, 0.9);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: grey;
+}
+
+.header-right a {
+  line-height: 32.5px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+.container_header {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #06D85F;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #06D85F;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}

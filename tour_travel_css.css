@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+/*
+-------------------------Aditya
+*/
+
+.top-wrapper {
+  max-width: 100%;
+
+  padding: 180px 0 300px 0;
+  background-image: url(https://img.wallpapersafari.com/desktop/1536/864/9/32/YF5sBZ.jpg);
+  background-size: 100%;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+
+  align-items: center;
+  position: absolute;
+}
+
+/*
+-------------------------Aditya
+*/
+
+
+body{
+  background: linear-gradient(45deg, #ffff, #f7f6f6);
+  font-family: 'Poppins', sans-serif;
+   
+}
+.wrap{
+  max-width:1170px;
+  margin:auto;
+}
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 15px;
+    margin-top: 50px;
+       
+}
+ 
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+      background:#efed40;
+      color:#000;
+}
+ 
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+ 
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+ 
+.price li {
+    border-bottom: 1px  #eee dotted;
+    padding: 20px;
+    text-align: center;
+}
+ 
+.price .price-button {
+    background-color: #eee;
+    font-size: 30px;
+      color:#000;
+      font-weight:bold;
+}
+ 
+.button {
+    background-color: #ff267e;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+.button:hover{
+      background:#000;
+}
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(5, 128, 128, 0.9);
+  /* Ubah position ke fixed, dan top ke 0 */
+  position: fixed;
+  top: 0;
+  /* Ubah z-index ke 10 */
+  z-index: 10;
+}
+.container_header {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/*
+Aditya
+*/
+.logo {
+  width: 120px;
+  margin: 5px 0;
+  float: left;
+}
+.header-left {
+float: left;
+/*background-color: rgba(255, 255, 255, 0.3);*/
+transition: all 0.5s;
+;
+}
+.header-left a {
+line-height: 65px;
+padding: 0 25px;
+color: rgba(255, 255, 255, 5);
+display: block;
+
+float: left;
+transition: all 0.5s;
+text-decoration: none;
+}
+
+/*.header-left:hover {
+  background-color: green;
+}
+*/
+
+/*
+Aditya
+*/
